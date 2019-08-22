@@ -13,21 +13,24 @@
     "build": "tsc",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "pretty-quick": "pretty-quick --staged",
-    "webpack-cucumber-html": "webpack-cli src/html-formatter/main.tsx"
+    "pretty-quick": "pretty-quick --staged"
   },
   "dependencies": {
-    "@types/ramda": "^0.26.19",
     "color": "^3.1.2",
     "cucumber-messages": "4.0.0",
-    "jsdom": "^15.1.1",
-    "ramda": "^0.26.1",
+    "ramda": "^0.26.1"
+  },
+  "peerDependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-sidenav": "^4.0.3",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-sidenav": "^4.0.3",
+    "styled-components": "^4.3.2",
     "@babel/core": "^7.5.5",
     "@storybook/addon-actions": "^5.1.11",
     "@storybook/addon-links": "^5.1.11",
@@ -37,6 +40,7 @@
     "@types/jsdom": "^12.2.4",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.7.2",
+    "@types/ramda": "^0.26.19",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "@types/storybook__react": "^4.0.2",
